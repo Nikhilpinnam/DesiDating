@@ -1,0 +1,14 @@
+package com.desiDating.entity;
+
+public class User {
+
+	private long UserId;
+	private String userName;
+	private String password;
+	private String email;
+	private String gender;
+	private String phoneNumber;
+	private String city;
+	private String country;
+
+}

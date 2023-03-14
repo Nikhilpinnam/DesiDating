@@ -1,0 +1,41 @@
+package com.desiDating.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.desiDating.Exceptions.UserDetailsNotFoundException;
+import com.desiDating.entity.User;
+
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	UserService userService;
+
+	@Override
+	public User getUserDetails(long UserId) {
+		// TODO Auto-generated method stub
+		User user = userService.getUserDetails(UserId);
+		if (user == null || " ".equals(user))
+
+			 throw new UserDetailsNotFoundException("User Details Not Found"+ UserId);
+	}else 
+		return user;
+
+	@Override
+	public User createUserDetails(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User updateUserDetails(User user, long UserId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void DeleteUserDetails(long UserId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

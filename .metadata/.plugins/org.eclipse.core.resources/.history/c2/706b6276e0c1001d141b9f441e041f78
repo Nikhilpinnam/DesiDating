@@ -1,0 +1,5 @@
+package com.desiDating.Exceptions;
+
+public class UserDetailsNotFoundException extends Exception {
+
+}

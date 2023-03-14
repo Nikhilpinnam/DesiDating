@@ -1,0 +1,5 @@
+package com.desiDating.Repo;
+
+public interface UserRepo extends MongoRespostiory<User, long> {
+
+}

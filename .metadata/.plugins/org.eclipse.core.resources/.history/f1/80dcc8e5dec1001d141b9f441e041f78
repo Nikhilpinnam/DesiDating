@@ -1,0 +1,5 @@
+package com.desiDating.Service;
+
+public interface UserService {
+
+}

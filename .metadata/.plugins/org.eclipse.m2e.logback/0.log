@@ -1,0 +1,13 @@
+2023-03-13 14:19:40,502 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-13 14:21:24,408 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.desiDating:DesiDating:0.0.1-SNAPSHOT @ C:\workspace\DesiDating\pom.xml.
+2023-03-13 14:21:26,320 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesiDating/src/main/java
+2023-03-13 14:21:26,321 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesiDating/src/main/resources
+2023-03-13 14:21:26,324 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesiDating/src/main/resources
+2023-03-13 14:21:26,327 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesiDating/src/test/java
+2023-03-13 14:21:28,584 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2023-03-13 14:21:28,588 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-13 14:21:28,782 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.desiDating:DesiDating:0.0.1-SNAPSHOT @ C:\workspace\DesiDating\pom.xml.
+2023-03-13 14:21:29,162 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesiDating/src/main/java
+2023-03-13 14:21:29,162 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesiDating/src/main/resources
+2023-03-13 14:21:29,164 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesiDating/src/main/resources
+2023-03-13 14:21:29,164 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesiDating/src/test/java

@@ -1,0 +1,9 @@
+package com.desiDating.Repo;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.desiDating.entity.User;
+
+public interface UserRepo extends MongoRepository<User, Long> {
+
+}

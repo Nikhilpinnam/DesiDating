@@ -1,0 +1,38 @@
+package com.desiDating.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.desiDating.Repo.UserRepo;
+import com.desiDating.entity.User;
+
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	UserRepo userRepo;
+
+	@Override
+	public User getUserDetails(long UserId) {
+		// TODO Auto-generated method stub
+		User user = userRepo.findById(UserId);
+		return user;
+	}
+
+	@Override
+	public User createUserDetails(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User updateUserDetails(User user, long UserId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void DeleteUserDetails(long UserId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
